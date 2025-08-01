@@ -1,0 +1,24 @@
+.Programs {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Program {
+  width: 30%;
+  text-align: center;
+}
+.Program img {
+  border-radius: 30px;
+  width: 90%;
+}
+@media (max-width: 650px) {
+  .Programs {
+    flex-direction: column;
+  }
+  .Program {
+    width: 100%;
+    margin-left: 4%;
+  }
+}

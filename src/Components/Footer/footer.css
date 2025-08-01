@@ -1,0 +1,17 @@
+.footer {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li {
+  display: inline;
+  margin-right: 10px;
+}
+@media (max-width: 750px) {
+  .footer p {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+}
